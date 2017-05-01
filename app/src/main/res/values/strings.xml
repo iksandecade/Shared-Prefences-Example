@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shared Preference Example</string>
+    <string name="username">Username</string>
+    <string name="as">AS</string>
+    <string name="login">Login</string>
+
+    <string-array name="typeItem">
+        <item>Admin</item>
+        <item>User</item>
+        <item>Reseller</item>
+    </string-array>
+</resources>
