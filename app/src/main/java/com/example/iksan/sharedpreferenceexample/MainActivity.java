@@ -11,7 +11,6 @@ import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnLogin;
     private EditText etUsername;
     private Spinner spType;
 
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnLogin = (Button) findViewById(R.id.btnLogin);
+        Button btnLogin = (Button) findViewById(R.id.btnLogin);
         etUsername = (EditText) findViewById(R.id.etUsername);
         spType = (Spinner) findViewById(R.id.spType);
 

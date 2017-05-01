@@ -9,16 +9,13 @@ import android.widget.Toast;
 
 public class ShowActivity extends AppCompatActivity {
 
-    private TextView tvDetail;
-    private LinearLayout linRoot;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_activty);
 
-        tvDetail = (TextView) findViewById(R.id.tvDetail);
-        linRoot = (LinearLayout) findViewById(R.id.linRoot);
+        TextView tvDetail = (TextView) findViewById(R.id.tvDetail);
+        LinearLayout linRoot = (LinearLayout) findViewById(R.id.linRoot);
 
         String asWho = SPSharedPreferences.getAsWho(this); //untuk ngambil tipe si user
         String username = SPSharedPreferences.getUsername(this); //untuk ngambil username si user
